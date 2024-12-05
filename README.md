@@ -43,18 +43,7 @@ Run the compiled code (for production):
 ```
 npm run start
 ```
-4. Project Structure
-bash
-Copy code
-ts-boilerplate/
-├── src/                # Source code directory
-│   └── index.ts        # Entry point of the application
-├── dist/               # Compiled JavaScript (generated after build)
-├── .env                # Environment variables file (not committed to Git)
-├── .gitignore          # Ignored files for Git
-├── package.json        # Project metadata and scripts
-├── tsconfig.json       # TypeScript configuration
-└── README.md           # Project documentation
+
 5. Environment Variables
 Create a .env file in the root directory to store environment variables:
 
